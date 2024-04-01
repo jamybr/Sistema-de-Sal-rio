@@ -1,9 +1,9 @@
 # Índice
-[Descrição]()  
-[Instruções de Uso]()  
-[Funcionalidades]()   
-[Tecnologias Utilizadas]()  
-[Autores]()  
+[Descrição](#descri%C3%A7%C3%A3o)  
+[Instruções de Uso](#instru%C3%A7%C3%B5es-de-uso)  
+[Funcionalidades](#funcionalidades)   
+[Tecnologias Utilizadas](#%EF%B8%8Ftecnologias-utilizadas)  
+[Autores](#%EF%B8%8Fautores)  
 
 ## 📝Descrição  
  * Este é um sistema desenvolvido para calcular o salário final de vendedores com base em metas semanais e mensais.
