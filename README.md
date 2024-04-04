@@ -9,10 +9,10 @@
  * Este projeto consiste em um sistema simples desenvolvido em HTML, CSS e PHP para calcular o salário de vendedores com base em metas de vendas semanal e mensal.
    
 ## 👾Instruções de Uso  
-* 1. Abra o arquivo `index.php` em um navegador web.
-* 2. Preencha o formulário com o nome do vendedor, a meta de vendas semanal e a meta de vendas mensal.
-* 3. Clique no botão "Calcular Salário".
-* 4. O sistema calculará o salário do vendedor com base nas informações fornecidas e exibirá o resultado na página.
+* Abra o arquivo `index.php` em um navegador web.
+* Preencha o formulário com o nome do vendedor, a meta de vendas semanal e a meta de vendas mensal.
+* Clique no botão "Calcular Salário".
+* O sistema calculará o salário do vendedor com base nas informações fornecidas e exibirá o resultado na página.
 
 ## 🔛Funcionalidades  
   ### 1. Formulário de Entrada de Dados:    
