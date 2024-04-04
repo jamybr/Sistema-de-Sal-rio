@@ -6,30 +6,31 @@
 [Autores](#%EF%B8%8Fautores)  
 
 ## 📝Descrição  
- * Este é um sistema desenvolvido para calcular o salário final de vendedores com base em metas semanais e mensais.
+ * Este projeto consiste em um sistema simples desenvolvido em HTML, CSS e PHP para calcular o salário de vendedores com base em metas de vendas semanal e mensal.
    
 ## 👾Instruções de Uso  
-* Solicita o nome do vendedor.
-* Solicita os valores de meta semanal e mensal.
-* Calcula o salário final com base nas metas alcançadas.
-* Exibe o salário final para o usuário.  
+* 1. Abra o arquivo `index.php` em um navegador web.
+* 2. Preencha o formulário com o nome do vendedor, a meta de vendas semanal e a meta de vendas mensal.
+* 3. Clique no botão "Calcular Salário".
+* 4. O sistema calculará o salário do vendedor com base nas informações fornecidas e exibirá o resultado na página.
 
 ## 🔛Funcionalidades  
-  ### 1. Solicitar Número:  
-  * O projeto permite que o usuário insira um número para o qual deseja gerar a tabuada.
-  ### 2. Calcular Tabuada:  
-  * Com base no número inserido pelo usuário, o projeto calcula a tabuada desse número, multiplicando-o pelos números de 1 a 9.
-  ### 3. Exibir Resultado:  
-  * Após o cálculo, o projeto exibe a tabuada gerada na página para que o usuário possa visualizá-la.
-  ### 4. Validação de Entrada:  
-  * O projeto inclui uma validação para garantir que o usuário insira um número antes de calcular a tabuada. Se nenhum número for inserido, o projeto exibirá um alerta solicitando que o usuário forneça um número válido.
+  ### 1. Formulário de Entrada de Dados:    
+  * O projeto apresenta um formulário HTML que permite aos usuários inserir informações, incluindo o nome do vendedor, a meta semanal e a meta mensal de vendas.  
+  ### 2. Validação de Campos Obrigatórios:  
+  *  Antes de processar os dados enviados pelo formulário, o projeto verifica se todos os campos obrigatórios foram preenchidos. Se algum campo estiver em branco, uma mensagem de erro é exibida, solicitando ao usuário que preencha todos os campos necessários.  
+  ### 3. Cálculo do Salário do Vendedor:  
+  * Após o envio dos dados pelo formulário e a validação dos campos, o projeto utiliza a função `calcularSalarioVendedor()` em PHP para calcular o salário final do vendedor com base nas metas de vendas semanal e mensal fornecidas. O cálculo considera também bônus adicionais dependendo do desempenho em relação às metas.
+  ### 4. Exibição do Resultado:    
+  * Após o cálculo do salário, o projeto exibe o resultado na página, mostrando o nome do vendedor e o salário final calculado.  
 
 ## ⌨️Tecnologias Utilizadas  
 
-* `CSS`: Linguagem de estilo utilizada para estilizar a aparência da página web, incluindo o plano de fundo, cores, fontes e alinhamento de elementos.  
-* `PHP`: Linguagem de script do lado do servidor utilizada para processar os dados enviados pelo formulário HTML e gerar dinamicamente o conteúdo da página web, neste caso, a tabuada do número inserido pelo usuário.  
-* `HTML`: Linguagem de marcação utilizada para estruturar o conteúdo da página web.  
-* `JavaScript`: Embora não esteja explicitamente incluído no código fornecido, há uma parte do PHP que gera um alerta em JavaScript se nenhum número for inserido pelo usuário. Portanto, presume-se que o JavaScript seja usado para exibir esse alerta na página.  
+* `CSS`: Utilizado para estilizar a interface do usuário, definindo o layout, as cores, as fontes e outros aspectos visuais do formulário e da página em geral.  
+* `PHP`: Utilizado para processar os dados do formulário e realizar cálculos de salário com base nas informações fornecidas pelo usuário. O PHP é uma linguagem de programação amplamente utilizada para desenvolvimento web, especialmente no lado do servidor.  
+* `HTML`: Utilizado para estruturar a interface do usuário, definindo elementos como formulários, rótulos e botões.  
+* `JavaScript`: Embora não esteja presente no código fornecido, é comum utilizar JavaScript para validação de formulários ou para fornecer funcionalidades interativas na página, como atualizar dinamicamente o conteúdo sem recarregar a página.
+* `Método POST`:  Utilizado para enviar os dados do formulário para o servidor, garantindo que as informações como nome do vendedor, meta semanal e meta mensal sejam enviadas de forma segura e não visível na URL.  
   
 ## ✒️Autores  
  * Esse projeto foi criado por [Jasminy Matias e Silva](https://github.com/jamybr)
